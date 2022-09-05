@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(34,123,195);
+    background: linear-gradient(337deg, rgb(51, 187, 119) 0%, rgb(176, 134, 231) 100%);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.divCorpo{
+    border-radius: 5px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding-block-end: 10px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+}
+
+.divCampo{
+    width: 50%;
+    margin: auto;
+}
+.divCampo button{
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.divCampo #addTarefa{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 75px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+.divCampo #addTarefa:hover{
+    background-color: #d4d8da;
+}
+.divTarefa{
+    background-color: gainsboro;
+    width:50%;
+    margin:10px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.divTarefa:hover{
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    transition: all .2s ease-in-out;
+}
+.divTarefa span{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.lined{
+    text-decoration: line-through;
+}
+
+#divBotoes{
+    justify-content: flex-end;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+    width: 20px;
+    background-color: #eee;
+}
+
+#editImg {
+    width: 10px;
+    height: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    background-image:url("imagens/editar.png"); 
+    background-color: rgb(230, 216, 216);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#deleteImg {
+    width: 10px;
+    height: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    background-image:url("imagens/excluir.png"); 
+    background-color: rgb(230, 216, 216);
+    background-size: cover;
+    margin-top: 2px;
+    cursor: pointer;
+}
